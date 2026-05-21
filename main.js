@@ -88,7 +88,7 @@ cards.forEach(card => {
 });
 
 const typingElement = document.querySelector('.info-home h3'); 
-const words = ["Frontend Developer", "UI/UX Designer", "Web Enthusiast", "React Developer"];
+const words = ["Web Developer", "ML Engineer", "Excel VBA", "Laravel & React"];
 let wordIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
@@ -143,5 +143,5 @@ document.addEventListener("DOMContentLoaded", () => {
     loadingScreen.style.opacity = '0';
     setTimeout(() => loadingScreen.style.display='none', 500);
     mainPage.classList.add("visible");
-  }, 2000);
+  }, 4000);
 });
